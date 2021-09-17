@@ -3,8 +3,7 @@ import java.util.Arrays;
 import javax.swing.*;
 import java.util.Arrays;
 import java.util.Scanner;
-
-//ver 0.5 !!
+//ver 0.6
 public class ReviewDemo01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -20,10 +19,6 @@ public class ReviewDemo01 {
             //System.out.println(k);
             k++;
         }
-        if (isPrime) // isPrime 변수 값이 true면
-            System.out.println(number + "은 소수");
-        else
-            System.out.println("소수가 아닙니다");
+        System.out.println(number + (isPrime ? "은 소수 !" : "은 소수가 아닙니다."));// 삼항조건 연산자 true or false
     }
 }
-
