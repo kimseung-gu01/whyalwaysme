@@ -4,10 +4,9 @@ import javax.swing.*;
 import java.util.Arrays;
 import java.util.Scanner;
 
+//ver 0.2
 
-//ver 0.1
 import java.util.Scanner;
-
 public class ReviewDemo01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -23,4 +22,6 @@ public class ReviewDemo01 {
         else
             System.out.println("아닙니다");
     }
-}*/
+}
+
+
